@@ -44,4 +44,4 @@
 - cmd 창에서 ``` cd ./app/web-llm ```으로 해당 폴더로 이동
 - (ISSUE) ``` npm install autoprefixer@latest ``` autoprefixer와 관련된 오류가 발생한다면 미리 설치
 - cmd 창에서 ``` npm run dev ```으로 해당 폴더 실행
-- 윈도우에서 Browser를 통해 ```localhost:8888```을 입력하면 간단하게 Secrte llama를 사용해볼 수 있음.
+- 윈도우에서 Browser를 통해 ```localhost:8888```을 입력하면 간단하게 Secret llama를 사용해볼 수 있음.
