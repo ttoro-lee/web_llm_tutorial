@@ -34,7 +34,7 @@
 
 ### Docker node.js container 설치
 - cmd 창에서 ``` docker run -d -it -p 8888:3000 --name [container_name] -v [container와 연결할 local folder 경로]:/app node:20-alpine ``` 입력 후 container 생성
-- ex) ``` docker run -d -it -p 8888:3000 --name next-web-llm -v C:\Users\unmun\node-app:/app next-web-llm:latest ```
+- ex) ``` docker run -d -it -p 8888:3000 --name next-web-llm -v C:\Users\unmun\node-app:/app node:20-alpine ```
 - cmd 창에서 ``` docker ps ``` 후 container가 올라왔는지 확인
 
 ### Web-llm 실행
