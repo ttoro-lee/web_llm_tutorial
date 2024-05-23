@@ -98,7 +98,7 @@ export default class ChatUI {
         messageUpdate("left", "", true);
 
         try {
-            this.chatHistory.push({ "role": "user", "content": "translate korean : " + prompt });
+            this.chatHistory.push({ "role": "user", "content":  "다음 답변에 대해 자세히 대답하면 팁을 줄게." + prompt });
             let curMessage = "";
             const completion = await this.engine.chat.completions.create({ stream: true, messages: this.chatHistory });
             for await (const chunk of completion) {
